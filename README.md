@@ -9,3 +9,13 @@ This is simulation for simple pairs trading
    ### Usage:
    ```bash
    python init_data.py
+
+## Simulation and Visualization
+
+1. **Run the `pairs_simulation.ipynb` Notebook**  
+   Navigate to the `pairs/` folder and open the `pairs_simulation.ipynb` notebook. Execute the cells step-by-step.
+
+2. **Run the Visualization Function**  
+   Inside the notebook, use the following function to visualize data:
+   ```python
+   visualize_all_periods(coin1, coin2, tf, window_size)
