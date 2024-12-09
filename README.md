@@ -19,3 +19,8 @@ This is simulation for simple pairs trading
    Inside the notebook, use the following function to visualize data:
    ```python
    visualize_all_periods(coin1, coin2, tf, window_size)
+
+3. **Parameters**
+- **`coin1`** and **`coin2`**: Select from `['BTC', 'ETH', 'SOL']`.
+- **`tf` (Time Frame)**: Choose from `['1m', '5m', '1h', '1d']`.
+- **`window_size`**: Pick a value that does not exceed the available data range.
